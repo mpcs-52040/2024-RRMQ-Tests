@@ -48,9 +48,9 @@ there is a variable called `ELECTION_TIMEOUT` that sleeps the test to allow for 
 
 ## Notes
 
-for any questions ask in slack `project-questions`
+For any questions ask in slack
 
-these test will be updated when there are new test releases and or bug fixes. for every update you will be notified on slack `announcements`
+During the project, we may update the tests (e.g., to fix bugs). We will notify you of update on Slack. 
 
 `@pytest.fixture` are the functions called by tests before running. in this case we use them to start the nodes, then terminate them when the test is done.
 
